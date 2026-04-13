@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanuja Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<a href="https:www.linkedin.com/in/morla-thanuja-9783ab331" target="_blank" class="btn">LinkedIn</a>
+<a href="https://github.com/thanuja692" target="_blank" class="btn">GitHub</a>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Thanuja</h2>
+    <ul>
+        <li><a onclick="showSection('about')">About</a></li>
+        <li><a onclick="showSection('projects')">Projects</a></li>
+        <li><a onclick="showSection('contact')">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- About Section -->
+
+
+    <section id="about" class="section active">
+    <h1>About Me</h1>
+
+    <div class="about-container">
+
+        <!-- LEFT: PHOTO -->
+        <div class="about-left">
+            <img src="linkdin_profile_pic.jpg" alt="My Photo">
+        </div>
+
+        <!-- RIGHT: TEXT -->
+        <div class="about-right">
+            <p>
+                Hello! I'm <b>Thanuja</b>, an Engineering student passionate about web development.
+            </p>
+
+            <p>
+                I study at GVP College of Engineering and I am building my skills in full stack development.
+            </p>
+
+            <p>
+                My goal is to become a <b>Full Stack Developer</b>.
+            </p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React (Learning)</li>
+                <li>Node.js (Learning)</li>
+            </ul>
+
+            <!-- RESUME BUTTON -->
+            <!-- <a href="resume.pdf" download class="btn">Download Resume</a> -->
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h1>My Projects</h1>
+
+    <div class="project">
+        <h3>Smart Agriculture</h3>
+        <p>Helps farmers using technology.</p>
+    </div>
+
+    <div class="project">
+        <h3>To-Do App</h3>
+        <p>Task management using JavaScript.</p>
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h1>Contact Me</h1>
+
+    
+       <form action="https://formspree.io/f/mvzdozao" method="POST">
+    
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+    
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    
+    <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+    
+    <button type="submit">Send</button>
+
+</form>
+    
+
+    <p>OR</p>
+    <p>Email: mthanuja910@gmail.com</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
